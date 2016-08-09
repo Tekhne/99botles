@@ -4,10 +4,6 @@ class Clause
     @number = number
   end
 
-  def to_s
-    "#{normalize_number} #{pluralize_bottles} of beer on the wall"
-  end
-
   private
 
   attr_reader :capitalize, :number
